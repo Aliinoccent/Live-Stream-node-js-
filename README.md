@@ -7,6 +7,8 @@ Redis ( redis client)
 
 EJS for views
 
+socket.io
+
  CSS, JavaScript (client-side)
 
 **live stream features**
@@ -19,6 +21,7 @@ EJS for views
 
 🧠 Redis for managing sessions, users, and chat persistence
 
-🌐 EJS templates for dynamic HTML rendering
+🌐 EJS files
+
 
 📡 Scalable architecture with Redis pub/sub (for multi-instance support)
