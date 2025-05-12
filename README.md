@@ -3,11 +3,11 @@ Node.js, Express, Socket.io
 
 PeerJS, WebRTC
 
-Redis (via ioredis or redis client)
+Redis ( redis client)
 
 EJS for views
 
-HTML, CSS, JavaScript (client-side)
+ CSS, JavaScript (client-side)
 
 **live stream features**
 
