@@ -1,4 +1,4 @@
-****************Technology*******************************************************
+**Technology**
 Node.js, Express, Socket.io
 
 PeerJS, WebRTC
@@ -9,8 +9,7 @@ EJS for views
 
 HTML, CSS, JavaScript (client-side)
 
-
-****************************************live stream features***************************************
+**live stream features**
 
 📞 Group video calls using PeerJS + WebRTC
 
