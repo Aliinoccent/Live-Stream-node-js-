@@ -26,7 +26,9 @@ navigator.mediaDevices.getUserMedia({
     myPeer.on('call', call => {
 
         call.answer(stream);
+        console.log('new user are connected ',call.peer)
         const video = document.createElement('video')
+        console.log('first persone come ')
         call.on('stream', userVideoStream => {
             console.log('Media stream acquired')
             addVideoStream(video, userVideoStream)
@@ -52,9 +54,9 @@ navigator.mediaDevices.getUserMedia({
 
 
 })
-
 function addVideoStream(video, stream) {
-    video.srcObject = stream
+    video.srcObject = stream;
+    // console.log('stream here',stream);
     video.addEventListener("loadedmetadata", () => {
         video.play()
     })
@@ -127,6 +129,7 @@ socket.on('otherReciver', (data) => {
     else {
         const li = document.createElement('li');
         li.innerText = data[data.length - 1]
+        li.style.listStyle='none'
         ul.appendChild(li);
         console.log(data[length], ' data[length-1]')
     }
